@@ -8,6 +8,8 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center justify-center px-4">
       <div className="w-full max-w-5xl bg-white rounded-2xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+
+        <title>Login - Firebase Authentication</title>
         
         <div className="flex items-center justify-center bg-blue-50 p-10">
           <RightIcon />

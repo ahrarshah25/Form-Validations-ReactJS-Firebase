@@ -6,6 +6,7 @@ import Footer from '../components/LandingPage/Footer/Footer'
 const Landing = () => {
   return (
     <div>
+      <title>Firebase Authentication</title>
         <Navbar />
         <Hero />
         <Footer />
