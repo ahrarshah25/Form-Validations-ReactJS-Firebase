@@ -99,7 +99,7 @@ useEffect(() => {
         <div>
           <Logo />
         </div>
-        <div className="flex items-center gap-4">
+        <div className="cursor-p flex items-center gap-4">
           {buttonData.map((item, index) => (
             <React.Fragment key={index}>
               {item.loginBtn && (
