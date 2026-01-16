@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.sidebar-link {
+  @apply px-3 py-2 rounded-lg text-gray-700 hover:bg-blue-100 hover:text-blue-600 transition;
+}
