@@ -30,25 +30,23 @@ const Navbar = () => {
 
 
   const [buttonData, setButtonData] = useState([
-    {
-      loginBtn: {
-        icon: UserPen,
-        name: "Login",
-
-        func: () => {
-          window.location.href = "/login";
-        },
-      },
-      signupBtn: {
-        icon: UserRoundPlus,
-        name: "Create Account",
-
-        func: () => {
-          window.location.href = "/signup";
-        },
+  {
+    loginBtn: {
+      icon: UserPen,
+      name: "Login",
+      func: () => {
+        window.location.href = "/login";
       },
     },
-  ]);
+    signupBtn: {
+      icon: UserRoundPlus,
+      name: "Create Account",
+      func: () => {
+        window.location.href = "/signup";
+      },
+    },
+  },
+]);
 
 
 useEffect(() => {
